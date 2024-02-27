@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (3 pts)
+# DONE: 1. (3 pts)
 #
 #   For this _TODO_, write a block of code that uses the list of numbers defined below and calculates the sum of all the numbers.
 #
@@ -9,9 +9,15 @@
 ###############################################################################
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+def accumulate():
+    total = 0
+    for x in nums:
+        total += x
+    print(total)
+accumulate()
 
 ###############################################################################
-# TODO: 2. (3 pts)
+# DONE: 2. (3 pts)
 #
 #   For this _TODO_, write a block of code that uses the string defined below and counts how many characters are in the string.
 #
@@ -23,3 +29,10 @@ nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ###############################################################################
 txt = "The quick brown fox jumps over the lazy dog."
 
+def characters():
+    total = 0
+    for x in txt:
+        x = 1
+        total += x
+    print(total)
+characters()
